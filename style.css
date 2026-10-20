@@ -3,13 +3,13 @@
    ───────────────────────────────────────────── */
 
 :root {
-  --white: #fbfaf7;
+  --white: #ffffff;
   --paper: #ffffff;
-  --ink: #14140f;
-  --ink-soft: #3d3a30;
-  --muted: #8a8578;
-  --line: #e2ddd0;
-  --line-dark: #c9c3b2;
+  --ink: #111110;
+  --ink-soft: #3c3a36;
+  --muted: #8e8c86;
+  --line: #eae9e6;
+  --line-dark: #d6d4cf;
   --accent: #9a7b4f;
 }
 
@@ -96,6 +96,11 @@ body {
   grid-template-columns: 1.2fr 1fr;
   gap: 60px;
   align-items: end;
+}
+.hero-mark {
+  grid-column: 1 / -1;
+  width: 84px;
+  height: 84px;
 }
 .kicker {
   grid-column: 1 / -1;
@@ -284,7 +289,7 @@ body {
   padding: 60px 40px;
   text-align: center;
 }
-.footer-mark { width: 40px; height: 40px; }
+.footer-mark { width: 52px; height: 52px; }
 .footer-tag {
   margin-top: 16px;
   font-family: "Space Grotesk", sans-serif;
