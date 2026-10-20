@@ -3,13 +3,13 @@
    ───────────────────────────────────────────── */
 
 :root {
-  --white: #ffffff;
-  --paper: #ffffff;
-  --ink: #111110;
-  --ink-soft: #3c3a36;
-  --muted: #8e8c86;
-  --line: #eae9e6;
-  --line-dark: #d6d4cf;
+  --white: #f6f4ee;
+  --paper: #f6f4ee;
+  --ink: #14130f;
+  --ink-soft: #413e36;
+  --muted: #8d8879;
+  --line: #e3dfd4;
+  --line-dark: #cdc8b9;
   --accent: #9a7b4f;
 }
 
@@ -194,8 +194,8 @@ body {
   background: var(--line);
   border: 1px solid var(--line);
 }
-.card { background: var(--paper); padding: 34px 30px; }
-.grid-3 .card { background: var(--white); }
+.card { background: #fcfbf8; padding: 34px 30px; }
+.grid-3 .card { background: #fcfbf8; }
 .card h3 {
   font-family: "IBM Plex Mono", monospace;
   font-size: 12px;
@@ -222,7 +222,7 @@ body {
 }
 
 /* ── Ladder ── */
-.ladder { border: 1px solid var(--line); background: var(--white); }
+.ladder { border: 1px solid var(--line); background: #fcfbf8; }
 .rung {
   padding: 34px 36px;
   border-bottom: 1px solid var(--line);
@@ -260,7 +260,7 @@ body {
 }
 
 /* ── Events ── */
-.event { background: var(--white); padding: 36px; border-left: 2px solid var(--accent); }
+.event { background: var(--white); padding: 36px; border-left: 2px solid var(--ink); }
 .event-name { font-family: "Space Grotesk", sans-serif; font-size: 20px; font-weight: 600; }
 .event-desc { margin-top: 10px; font-size: 14px; color: var(--muted); }
 
